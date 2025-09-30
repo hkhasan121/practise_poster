@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+#property {
+    width: 90%;   /* ছোট স্ক্রিনের জন্য প্রায় ফুল-উইডথ */
+    margin: 5% auto;
+    color: white;
+    text-align: center;
+}
+
+img {
+    border: 5px solid white;
+    max-width: 100%; /* স্ক্রিন অনুযায়ী responsive হবে */
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
